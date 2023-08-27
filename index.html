@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Урок 4</title>
+    <!-- Вбудований файл стилей -->
+    <style>
+        h2{
+            color: rgb(224, 37, 224);
+        }
+    </style>
+    <!-- Зовнішній файл стилей -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!-- Шапка сайту -->
@@ -19,12 +27,13 @@
    </header>
    <!-- Фотоблог -->
    <main>
-    <h1>Фотоблог</h1>
-    <article>
+    <h1 class="title">Фотоблог</h1>
+    <article id="article">
         <img src="/dog-puppy-on-garden-royalty-free-image-1586966191.jpg" alt="" width="300">
-        <a href="">LIFESTYLE</a>
-        <h2>More than just a music festival</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+        <a href="" class="link">LIFESTYLE</a>
+        <!-- Інлайновий файл стилей -->
+        <h2 style="color: blueviolet;">More than just a music festival</h2>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
     </article>
@@ -69,6 +78,7 @@
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
     </article>
     <button type="button">Load more</button>
+    <button type="submit">Submit</button>
    </main>
    <footer>
 

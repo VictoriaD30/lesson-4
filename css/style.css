@@ -1,0 +1,55 @@
+:root{
+    --ackent-color: #03A9F4;
+}
+/* *{ 
+    color: lightgreen;
+ } */
+ /* Теговий */
+ h2{
+    color: rgba(131, 224, 224, 2.0);
+    font-size: 24 px;
+    text-align: center;
+}
+a{
+text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+/* Селектор класу */
+/* Селектор груп */
+.title,
+.text
+
+{
+    color: plum;
+}
+
+/* Селектор ідентифікатора */
+#article{
+    background-color: bisque;
+}
+
+/* Селектор нащадку */
+body a{
+    color: yellow;
+}
+
+/* Дочірній селектор */
+header, nav{
+    background-color: rgba(207, 243, 173, 2.0);
+}
+/* Сусідній селектор */
+a+h2{
+    background-color: black;
+}
+/* Споріднений селектор */
+main~article{
+    background-color: lime;
+}
+/* Селектор атрибуту */
+button[type=button]{
+    background-color: blue;
+    color: black;
+}
